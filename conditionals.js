@@ -14,9 +14,9 @@ console.log('Now you\'re ready to go outside!')
 
 
 const isCitizen = true;
-const age = 26
+let year = 26
 
-if(isCitizen && age > 18) {
+if(isCitizen && year > 18) {
   console.log('You are eligible to vote.');
 }
 
@@ -36,10 +36,10 @@ const wichSchool = function (age) {
       console.log('Secondary School')
     } else {
       console.log('Lighthouse Labs')
-    }
+    } return wichSchool
   }
 
-  const age = 23
-  return wichSchool;
+  let age = 23
+  console.log(wichSchool(age));
 
-  
+
